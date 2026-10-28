@@ -1,0 +1,36 @@
+{
+  "name": "sadguru-natu-vaidyam",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/prepare-hostinger.mjs",
+    "start": "node server.js",
+    "lint": "eslint .",
+    "clean": "next clean"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": ">=4.0.0",
+    "@types/node": ">=20.0.0",
+    "@types/react": ">=18.2.0",
+    "@types/react-dom": ">=18.2.0",
+    "autoprefixer": ">=10.4.0",
+    "clsx": ">=2.0.0",
+    "lucide-react": ">=0.400.0",
+    "motion": ">=11.0.0",
+    "next": ">=15.0.0",
+    "postcss": ">=8.4.0",
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0",
+    "tailwind-merge": ">=2.0.0",
+    "tailwindcss": ">=4.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "devDependencies": {
+    "eslint": ">=8.0.0",
+    "eslint-config-next": ">=15.0.0"
+  }
+}
