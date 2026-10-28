@@ -1,8 +1,32 @@
 {
-  "name": "Remix Sadguru Natu Vaidyam \u0026 Vedic Astrology — Srinivas Maharaj",
-  "description": "Traditional Tantra Vaidyam, Vedic Astrology, Sacred Yantras, Puja Samagri, and Ayurvedic Herbal Formulations by Srinivas Maharaj (సద్గురు నాటు వైద్యం). Available in Telugu and English.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "name": "sadguru-natu-vaidyam",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "clean": "next clean"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "lucide-react": ">=0.450.0",
+    "motion": "^12.0.0",
+    "next": "^15.1.0",
+    "postcss": "^8.4.49",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
 }
